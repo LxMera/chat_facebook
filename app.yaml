@@ -1,0 +1,8 @@
+runtime: python39
+entrypoint: gunicorn -b :$PORT app:app
+
+env_variables:
+  ACCESS_TOKEN: 'EAA004LoBjBkBO1ZCE4rvqmZCATx6APofvPP307qLG6ZA2mMRz37nFw0zD0ZAegofaleZBWqnoDB0E7x7FRnNGJJPrKbJvhgk1s1wkfXstuZAje828fzERVXBkCVGsqnvaXbL2c1DkmuZAHEpUtvI8m1WfvxAUA0X7JbvnIl9FizSxDPbNeuxYSnuZACHcbsW0MtdPVTXcKWHueF25YLV'
+  VERIFY_TOKEN: 'tlk98fadsk4598fdaskasdfj8548'
+  OPENAI_KEY: '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'
+  ASSISTANT_ID: 'asst_lE5jHIcK94JNtdknuKqGbdwn'
